@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lists, Tables and Forms</title>
+		<link href= "css/styles.css" type = "text/css" rel = "stylesheet"/>
+	</head>
+
+	<body>
+		<div id="page">
+			<div class="menu-holder">
+				<!-- This is my navigation bar where it links to other pages on the same level -->
+                        <nav id="header-main-menu">
+                            <ul class="main-menu ">
+								<li>
+                                    <a href="index.html"> Home </a>
+                                </li>
+                                <li>
+                                    <a href="schedule.html">Schedule</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="projects.html">My Projects</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+         <br/>
+
+		<h1 class= "center-text"> Contact Me </h1>
+		
+		<!-- This is a form created to contact me with, requires inputes such as the person's name, email, reason for contacting, etc.. -->
+		<div class = "center-mid-3">
+			<form action="http://www.example.com/form.php" method="get">
+				<fieldset >
+					<legend class = "center-3"> Contact Me</legend>
+					<p>
+						<label class="title" for="name">Your name:</label>
+						 <input type="text" name="name" id="name"><br /> 
+						 <label class="title" for="email">Your email:</label>
+						 <input type="text" name="email" id="email"></p>
+						 <label class="title" for="major">Your Major:</label>
+						 <input type="text" name="major" id="major"></p>
+						 <label class="title" for="contacting">Reason for Contacting:</label>
+						 <input type="text" name="contacting" id="contacting"></p>
+
+					<p><label for="location" class="title">Your closest center:</label>
+						 <select name="location" id="location">
+							 <option value="ny">Pittsburgh</option>
+							 <option value="il">Virginia</option>
+							 <option value="ca">San Francisco</option>
+						 </select></p>
+					<!-- This question on if we have ever met before is important to me because if they were to contact me sometimes I would remember them if I met them in-person. -->
+					<span class="title">Have we met before?</span>
+					<label><input type="radio" name="met" value="yes" /> Yes</label>
+					<label><input type="radio" name="met" value="no" /> No</label></p>
+				</fieldset>
+	 	    <div class="submit"><input type="submit" value="Register" /></div>
+			</form>
+		</div>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.2380599783612!2d-79.94554382401876!3d40.44259784481519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1632075800166!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+		<!-- This is my footer which has three social media accounts linked in, twitter, facebook, and pinterest. -->
+		<footer class="footer">
+                <div>
+                     <p> © 2021 </p>
+                    <div class="socialmedia"> 
+                        <a href="#">
+                            <span class="twitter"> <img class= "smlogo" src="img/f081.png"/></span>
+                        </a> 
+                        <a href="#">
+                            <span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+                        </a> 
+                        <a href="#">
+                            <span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
+                        </a> 
+                    </div>
+                </div>
+            </footer>
+
+		</div>
+	</body>
+</html>
